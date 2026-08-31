@@ -22,22 +22,26 @@ export const metadata: Metadata = {
   metadataBase: SITE,
   // título padrão e template para páginas internas (se vier a ter)
   title: {
-    default: "Douglas Figueirôa – iOS & Full‑Stack Developer",
+    default: "Douglas Figueirôa – Mobile Software Engineer | iOS, Flutter & Full-Stack",
     template: "%s · Douglas Figueirôa",
   },
   description:
-    "iOS & Full‑Stack Developer crafting fast, clean apps and web experiences. Swift, SwiftUI, UIKit, Next.js, React, Firebase.",
+    "Mobile Software Engineer specializing in native iOS, with Flutter, full-stack and AWS experience. Swift, SwiftUI, UIKit, Dart, React, Node.js and cloud delivery.",
   keywords: [
     "iOS developer",
     "Swift",
     "SwiftUI",
     "UIKit",
     "Apple Developer",
-    "Full‑Stack",
+    "Flutter",
+    "Dart",
+    "Mobile Software Engineer",
+    "Full-Stack",
     "Next.js",
     "React",
     "TypeScript",
-    "Firebase",
+    "Node.js",
+    "AWS",
     "Mobile apps",
     "Frontend",
     "Backend",
@@ -58,16 +62,18 @@ export const metadata: Metadata = {
     type: "website",
     url: "/",
     siteName: "Douglas Figueirôa Portfolio",
-    title: "Douglas Figueirôa – iOS & Full‑Stack Developer",
-    description: "iOS & Full‑Stack Developer crafting fast, clean apps and web experiences.",
+    title: "Douglas Figueirôa – Mobile Software Engineer | iOS, Flutter & Full-Stack",
+    description:
+      "Mobile Software Engineer specializing in native iOS with Flutter, full-stack and AWS experience.",
     images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: "Douglas Figueirôa" }],
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
     site: "@", // se um dia tiver @ no X/Twitter, coloque aqui
-    title: "Douglas Figueirôa – iOS & Full‑Stack Developer",
-    description: "iOS & Full‑Stack Developer crafting fast, clean apps and web experiences.",
+    title: "Douglas Figueirôa – Mobile Software Engineer | iOS, Flutter & Full-Stack",
+    description:
+      "Mobile Software Engineer specializing in native iOS with Flutter, full-stack and AWS experience.",
     images: [OG_IMAGE],
   },
   icons: {
@@ -107,14 +113,26 @@ export default async function LocaleLayout(props: LayoutProps) {
     "@type": "Person",
     name: "Douglas Figueirôa",
     url: SITE.toString(),
-    jobTitle: "iOS & Full‑Stack Developer",
+    jobTitle: "Mobile Software Engineer",
     image: `${SITE.origin}${OG_IMAGE}`,
     sameAs: [
       "https://github.com/DouglasiOSDeveloper",
       "https://linkedin.com/in/douglas-figueirôa-1ba2541bb",
       "https://www.instagram.com/douglas.figueiroa/",
     ],
-    knowsAbout: ["Swift", "SwiftUI", "UIKit", "iOS", "Next.js", "React", "TypeScript", "Firebase"],
+    knowsAbout: [
+      "Swift",
+      "SwiftUI",
+      "UIKit",
+      "iOS",
+      "Flutter",
+      "Dart",
+      "React",
+      "TypeScript",
+      "Node.js",
+      "AWS",
+      "CI/CD",
+    ],
   };
 
   return (

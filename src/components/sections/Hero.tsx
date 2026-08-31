@@ -89,25 +89,27 @@ export function Hero() {
               <span className="mx-4">Swift</span>
               <span className="mx-4">SwiftUI</span>
               <span className="mx-4">UIKit</span>
-              <span className="mx-4">Combine</span>
-              <span className="mx-4">Xcode</span>
-              <span className="mx-4">iOS</span>
-              <span className="mx-4">Next.js</span>
+              <span className="mx-4">Flutter</span>
+              <span className="mx-4">Dart</span>
+              <span className="mx-4">MapKit</span>
+              <span className="mx-4">CoreLocation</span>
               <span className="mx-4">React</span>
               <span className="mx-4">TypeScript</span>
-              <span className="mx-4">Firebase</span>
-              <span className="mx-4">APIs RESTful</span>
+              <span className="mx-4">Node.js</span>
+              <span className="mx-4">AWS</span>
+              <span className="mx-4">REST / WebSockets</span>
               <span className="mx-4">Swift</span>
               <span className="mx-4">SwiftUI</span>
               <span className="mx-4">UIKit</span>
-              <span className="mx-4">Combine</span>
-              <span className="mx-4">Xcode</span>
-              <span className="mx-4">iOS</span>
-              <span className="mx-4">Next.js</span>
+              <span className="mx-4">Flutter</span>
+              <span className="mx-4">Dart</span>
+              <span className="mx-4">MapKit</span>
+              <span className="mx-4">CoreLocation</span>
               <span className="mx-4">React</span>
               <span className="mx-4">TypeScript</span>
-              <span className="mx-4">Firebase</span>
-              <span className="mx-4">APIs RESTful</span>
+              <span className="mx-4">Node.js</span>
+              <span className="mx-4">AWS</span>
+              <span className="mx-4">REST / WebSockets</span>
             </div>
           </div>
         </div>

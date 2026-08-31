@@ -2,9 +2,9 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Douglas Figueirôa – iOS & Full‑Stack Developer",
+  title: "Douglas Figueirôa – Mobile Software Engineer | iOS, Flutter & Full-Stack",
   description:
-    "iOS & Full‑Stack Developer crafting fast, clean apps and web experiences. Swift, SwiftUI, UIKit, Next.js, React, Firebase.",
+    "Mobile Software Engineer specializing in native iOS, with Flutter, full-stack and AWS experience.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

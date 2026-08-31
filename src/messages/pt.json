@@ -7,13 +7,13 @@
   },
   "hero": {
     "kicker": "Portfólio",
-    "title": "Desenvolvedor iOS & Full‑Stack",
-    "desc": "Crio apps e experiências web rápidas e limpas usando Swift, SwiftUI, UIKit, Next.js, React e Firebase.",
+    "title": "Engenheiro de Software Mobile",
+    "desc": "Desenvolvo produtos mobile e plataformas digitais de ponta a ponta, com especialização em iOS nativo e experiência prática em Flutter, React/TypeScript, Node.js e AWS.",
     "chips": [
-      "Aberto a remoto / presencial nos EUA",
-      "GMT‑3 / UTC-3",
-      "5+ anos",
-      "iOS • Swift • SwiftUI • Next.js • +"
+      "iOS • Swift • SwiftUI",
+      "Flutter • Dart",
+      "Full‑Stack • AWS",
+      "5+ anos de experiência"
     ],
     "cta": {
       "github": "Ver GitHub",
@@ -24,127 +24,135 @@
   },
   "about": {
     "kicker": "Sobre",
-    "title": "Desenvolvedor iOS‑first com base sólida em web",
-    "desc": "Desenvolvedor Full‑Stack e especialista iOS com <b>5+ anos</b> construindo apps, sites e integrações. Experiência com <b>times ágeis</b>, <b>pagamentos</b>, <b>SEO/UX</b> e colaboração multidisciplinar. Atuo principalmente no ecossistema Apple (Swift, SwiftUI, UIKit) e em stack moderna web (Next.js, React, TypeScript, Firebase).",
-    "qualsTitle": "Qualificações e pontos comportamentais",
+    "title": "Mobile‑first, com profundidade em iOS e visão end‑to‑end",
+    "desc": "Engenheiro de Software com <b>5+ anos</b> de experiência em produtos mobile e plataformas digitais. Minha especialidade é <b>iOS nativo</b> com Swift, SwiftUI e UIKit, complementada por Flutter/Dart, React/TypeScript, Node.js e AWS. Atuo do discovery e arquitetura ao desenvolvimento, testes, CI/CD e releases em produção, conectando engenharia, <b>Produto e UX/UI</b>. Também trago repertório complementar em design, analytics e automação de marketing.",
+    "qualsTitle": "Como trabalho",
     "quals": [
-      "Comunicação clara",
-      "Ownership & pragmatismo",
-      "Foco em UX & qualidade",
-      "Parceria com Design/PM",
-      "Aprendizado rápido & adaptável",
-      "Entrega consistente",
-      "Visão estratégica & planejamento",
-      "Resolução de problemas & pensamento crítico",
-      "Mindset & práticas ágeis"
+      "Ownership técnico",
+      "Arquitetura & resolução de problemas",
+      "Foco em produto e UX",
+      "Colaboração com Design/PM",
+      "Qualidade & confiabilidade",
+      "Comunicação técnica clara",
+      "Documentação & code review",
+      "Entrega ágil e incremental",
+      "Visão de negócio"
     ],
     "eduTitle": "Educação",
     "edu": {
       "ucb": {
-        "title": "Bacharel em Ciência da Computação — UCB",
-        "period": "Jan 2019 – Jul 2025",
-        "desc": "Base sólida em computação, estruturas de dados, redes e engenharia de software."
+        "title": "Bacharelado em Ciência da Computação — UCB",
+        "period": "Fev 2019 – Jun 2025",
+        "desc": "Fundamentos de computação, estruturas de dados, bancos, redes e engenharia de software."
       },
       "academy": {
-        "title": "Apple Developer Academy",
+        "title": "Apple Developer Academy / UCB",
         "period": "Mar 2021 – Dez 2022",
-        "desc": "Desenvolvimento para plataformas Apple: Swift, SwiftUI, UIKit; produto e publicação na App Store."
+        "desc": "Especialização prática em plataformas Apple, produto, UX, testes e entrega de aplicativos iOS/watchOS."
       },
       "post": {
-        "title": "Pós‑graduação: Inovação & Transformação Digital — Gran College",
-        "period": "Jan 2023 – Set 2025",
-        "desc": "Estratégia digital, produto e negócios — unindo tecnologia com impacto real."
+        "title": "Pós‑graduação em Inovação & Transformação Digital — Gran",
+        "period": "Set 2023 – Ago 2025",
+        "desc": "Produto, estratégia e transformação digital conectando tecnologia a objetivos de negócio."
       }
     }
   },
   "experience": {
     "title": "Experiência",
     "items": {
-      "creativePack": {
-        "role": "Desenvolvedor iOS - Contrato",
-        "company": "Creative Pack (Hapvida) - Remoto",
-        "period": "Jun 2022 – Jun 2023",
-        "headline": "Entreguei features de saúde que melhoraram o controle do paciente e o acompanhamento médico.",
+      "selectapp": {
+        "role": "Software Engineer - Contractor",
+        "company": "SelectApp Mobility / AutoPop - Remoto",
+        "period": "Jun 2025 – Atual",
+        "headline": "Atuação cross‑stack em um ecossistema de mobilidade e assistência, do app mobile à operação de releases em AWS.",
         "bullets": [
-          "Redesenhei jornadas com o time de Inovação, aumentando conclusão de fluxos críticos e reduzindo fricção.",
-          "Implementei prescrição digital e acompanhamento, tornando mais seguro o hand‑off entre pacientes e equipe médica."
+          "Desenvolvimento end‑to‑end com iOS (Swift/SwiftUI/UIKit), Flutter/Dart, React/TypeScript/Vite e backend Node.js/MySQL/AWS.",
+          "Implementação e sustentação de autenticação, mapas e geolocalização com MapKit/CoreLocation, permissões, busca de endereços e comportamento responsivo entre web e mobile.",
+          "Integração de APIs REST/WebSockets, contratos cliente-servidor, tratamento de erros, migrações de schema e reconciliação de dados com MySQL/Amazon RDS.",
+          "Evolução de arquitetura por contextos operacionais, feature flags e compatibilidade entre versões.",
+          "Releases em HML/PROD com preflight, readiness, smoke tests, canary, rollback e investigação de causa raiz; deploy de frontend via S3/CloudFront."
         ],
         "tech": [
           "Swift",
           "SwiftUI",
           "UIKit",
-          "HealthKit",
-          "Combine",
-          "HIG",
-          "MVVM / MVVM-C",
-          "CocoaPods",
-          "Git",
-          "Ágil"
+          "Flutter",
+          "Dart",
+          "MapKit",
+          "CoreLocation",
+          "React",
+          "TypeScript",
+          "Node.js",
+          "MySQL",
+          "AWS",
+          "REST",
+          "WebSockets",
+          "CI/CD"
         ]
       },
-      "academy": {
-        "role": "Desenvolvedor de Aplicativos Apple - Capacitação Presencial",
-        "company": "Apple Developer Academy - Presencial",
-        "period": "Mar 2021 – Dez 2022",
-        "headline": "Criei e publiquei múltiplos apps (iPhone, iPad, watchOS, tvOS, macOS) com forte foco em produto e publicação.",
+      "thifi": {
+        "role": "Manager & Full‑Stack Developer",
+        "company": "ThiFi Agency - Remoto",
+        "period": "Jan 2025 – Atual",
+        "headline": "Liderança técnica e desenvolvimento full‑stack de produtos digitais, unindo arquitetura, cloud, produto e UX/UI.",
         "bullets": [
-          "Selecionado entre vagas limitadas; entregas fim‑a‑fim com visão de produto e iteração.",
-          "Apresentei demos e talks técnicas em PT/EN para equipe Apple e mentores.",
-          "Identifiquei problemas e propus soluções via CBL, desenvolvendo apps em equipe de 5 pessoas.",
-          "Publiquei apps na App Store, incluindo premiação no Swift Student Challenge."
+          "Coordenação de arquitetura, frontend, backend, cloud, integrações, documentação e colaboração entre desenvolvimento, design e produto.",
+          "No IMOB, evolução de frontend/backend, autenticação e gestão de usuários via Amazon Cognito e infraestrutura como código com CloudFormation/AWS CLI.",
+          "Condução de typecheck, builds, testes automatizados e smoke tests, com diagnóstico de backend, patches e validação de runtime antes de releases.",
+          "Na OneMedia, desenvolvimento com Next.js, React, Tailwind CSS e Firebase, incluindo integrações com Google Maps, Instagram, WhatsApp Business e gateways de pagamento."
+        ],
+        "tech": [
+          "Next.js",
+          "React",
+          "TypeScript",
+          "Node.js",
+          "Firebase",
+          "AWS Cognito",
+          "CloudFormation",
+          "AWS CLI",
+          "Tailwind",
+          "Google Maps",
+          "APIs",
+          "CI/CD",
+          "Figma"
+        ]
+      },
+      "hapvida": {
+        "role": "iOS Developer - Contractor",
+        "company": "Hapvida Saúde - Remoto",
+        "period": "Jun 2022 – Jun 2023",
+        "headline": "Desenvolvimento de funcionalidades iOS para produto de saúde em colaboração com times de inovação, produto e design.",
+        "bullets": [
+          "Implementação e manutenção do módulo de prescrição digital e evolução de jornadas críticas do aplicativo.",
+          "Integração de APIs REST, gerenciamento de estado, tratamento de erros e melhorias de confiabilidade.",
+          "Aplicação de Apple Human Interface Guidelines e boas práticas de acessibilidade em jornadas de pacientes e profissionais de saúde."
+        ],
+        "tech": ["Swift", "UIKit", "REST APIs", "MVVM", "HIG", "Accessibility", "Git", "Agile"]
+      },
+      "academy": {
+        "role": "iOS Developer",
+        "company": "Apple Developer Academy / UCB - Presencial",
+        "period": "Mar 2021 – Dez 2022",
+        "headline": "Programa imersivo de desenvolvimento para plataformas Apple, do discovery e prototipação à entrega e demonstração de produtos.",
+        "bullets": [
+          "Desenvolvimento de aplicativos iOS e watchOS com Swift, SwiftUI, UIKit, HealthKit, Core Data, MapKit e GameKit.",
+          "Uso de Xcode Cloud, DocC, testes, code review, Challenge Based Learning e pesquisa com usuários em projetos colaborativos.",
+          "Demonstrações de produto em português e inglês e desenvolvimento de projeto para o Swift Student Challenge 2022 com Xcode Playgrounds."
         ],
         "tech": [
           "Swift",
           "SwiftUI",
           "UIKit",
           "Xcode",
-          "App Store",
-          "Combine",
-          "RxSwift",
-          "HIG",
-          "Testes de Unidade",
-          "MVVM / MVVM-C",
-          "VIP / VIPER",
-          "CocoaPods",
-          "Git",
-          "Ágil",
-          "CBL",
-          "Design Thinking",
-          "Acessibilidade",
-          "Localização",
-          "TestFlight",
-          "CoreData",
-          "CoreLocation",
-          "MapKit",
           "HealthKit",
-          "CoreML"
-        ]
-      },
-      "thifi": {
-        "role": "Gestor & Desenvolvedor Full‑Stack",
-        "company": "ThiFi",
-        "period": "Jan 2025 – Presente",
-        "headline": "Liderei entrega de sites corporativos, e‑commerce e dashboards. Unindo tecnologia, design e marketing estratégico.",
-        "bullets": [
-          "Criei sites SEO‑friendly e dashboards internos usando sistema de componentes reutilizáveis.",
-          "Integrei Google Maps, Instagram e WhatsApp Business; implementei Mercado Pago Transparent Checkout.",
-          "Entreguei e‑commerce e web apps com Next.js, React, Tailwind CSS e Firebase.",
-          "Gerenciei time de 3 devs, garantindo qualidade e prazos.",
-          "Implementei analytics e tracking para insights de performance.",
-          "Coordenei times multidisciplinares com metodologias ágeis."
-        ],
-        "tech": [
-          "Next.js",
-          "React",
-          "TypeScript",
-          "Tailwind",
-          "Firebase",
-          "Mercado Pago",
-          "Google Maps",
-          "API",
-          "SEO",
-          "Analytics",
-          "Ágil"
+          "Core Data",
+          "MapKit",
+          "GameKit",
+          "Xcode Cloud",
+          "DocC",
+          "TestFlight",
+          "CBL",
+          "UX Research"
         ]
       }
     }
@@ -152,99 +160,112 @@
   "projects": {
     "title": "Projetos",
     "filter": "Filtro:",
-    "tabs": { "all": "Todos", "ios": "iOS", "web": "Web" },
+    "tabs": {
+      "all": "Todos",
+      "ios": "iOS",
+      "mobile": "Mobile",
+      "web": "Web"
+    },
     "actions": {
       "web": "Web →",
-      "hideLinks": "Ocultar Links",
+      "hideLinks": "Ocultar links",
       "more": "Mais",
       "less": "Menos",
       "github": "GitHub →"
     },
     "tagLabels": {
-      "Games": "Jogos",
+      "Mobility": "Mobilidade",
       "Health": "Saúde",
-      "Maps": "Mapas",
       "Business": "Negócios",
-      "Education": "Educação"
+      "Games": "Jogos",
+      "Maps": "Mapas",
+      "Education": "Educação",
+      "Cloud": "Cloud"
     },
     "items": {
-      "hybris": {
-        "summary": "Jogo casual de terror para iPhone focado em atmosfera e integração com GameCenter.",
+      "autopop": {
+        "summary": "Ecossistema de mobilidade e assistência com atuação em iOS, Flutter, web, backend e operação de releases em AWS.",
         "details": [
-          "Loop de feedback imersivo com dificuldade adaptativa.",
-          "Ranking e conquistas via GameCenter."
+          "Fluxos críticos de autenticação, mapas e geolocalização entre mobile e web.",
+          "APIs REST/WebSockets, MySQL/RDS, feature flags, canary releases, smoke tests e rollback em produção."
         ]
       },
-      "stretch-quest": {
-        "summary": "App de postura e flexibilidade com progressão estilo RPG e animações.",
+      "imob": {
+        "summary": "Plataforma full‑stack com autenticação, gestão de usuários e infraestrutura AWS orientada a ambientes e releases seguros.",
         "details": [
-          "Rotina gamificada com streaks e níveis desbloqueáveis.",
-          "Sistema de animações custom e hápticos."
+          "Amazon Cognito para autenticação e gestão de usuários, com infraestrutura definida via CloudFormation.",
+          "Typecheck, builds, testes automatizados, smoke tests e troubleshooting de backend/deploy com AWS CLI."
         ]
       },
-      "iss-tracker": {
-        "summary": "Acompanhe a ISS em tempo real no mapa usando frameworks Apple e POP.",
+      "onemedia": {
+        "summary": "Plataforma digital modular com painéis e integrações para operação de mídia OOH.",
         "details": [
-          "Polling de posição e anotações no mapa.",
-          "Permissões de localização e updates em background."
-        ]
-      },
-      "wwdc22-ssc": {
-        "summary": "Experiência interativa no Swift Playgrounds enviada ao Swift Student Challenge.",
-        "details": [
-          "Conteúdo educacional com padrões de interação.",
-          "Foco em acessibilidade e linguagem visual clara."
+          "Desenvolvimento full‑stack com Next.js, React, Tailwind CSS e Firebase.",
+          "Integrações com Google Maps, Instagram, WhatsApp Business e gateways de pagamento, além de arquitetura, documentação e code review."
         ]
       },
       "genika": {
-        "summary": "Companion de Apple Watch + HealthKit para visualizar rotina e equilíbrio de saúde.",
+        "summary": "Aplicativo iOS/watchOS com SwiftUI e HealthKit para visualizar hábitos e indicadores de rotina.",
         "details": [
-          "Ingestão de dados do HealthKit e armazenamento com privacidade.",
-          "Sync via CloudKit e interações mínimas no Watch."
+          "Uso de HealthKit, Core Data e CloudKit para dados e sincronização.",
+          "Experiência complementar no Apple Watch com foco em visualização clara e interações objetivas."
         ]
       },
       "dizcarta": {
-        "summary": "Jogo de cartas cooperativo que incentiva a socialização entre jovens.",
+        "summary": "Jogo cooperativo em SwiftUI/Core Data criado a partir de pesquisa com especialistas em educação.",
         "details": [
-          "Offline‑first com CoreData.",
-          "Balanceamento do jogo e UX para sessões em grupo."
+          "Persistência local com Core Data e documentação técnica com DocC.",
+          "Pipeline colaborativo com Xcode Cloud e foco em interação/socialização em grupo."
+        ]
+      },
+      "wwdc22-ssc": {
+        "summary": "Experiência interativa em Xcode Playgrounds desenvolvida para o Swift Student Challenge 2022.",
+        "details": [
+          "Conteúdo dividido em capítulos e desafios com foco em aprendizado e interação.",
+          "Projeto concebido, desenvolvido e apresentado dentro do ecossistema Apple Developer Academy."
         ]
       },
       "beauty-platform": {
-        "summary": "Plataforma Next.js para salões/barbearias com catálogo, galeria do IG, agendamento via WhatsApp e checkout Mercado Pago.",
+        "summary": "Plataforma web white‑label para salões e barbearias com catálogo, agendamento, e‑commerce e painel administrativo.",
         "details": [
-          "Functions serverless para agendamento + notificações.",
-          "Páginas prontas para SEO e ingestão de mídia do IG."
+          "Next.js, Firebase e interface responsiva com fluxos de agendamento e gestão de serviços.",
+          "Integrações de pagamento e comunicação, incluindo Mercado Pago e WhatsApp."
         ]
       },
       "falaubs": {
-        "summary": "App web Django para unidades de saúde com busca inteligente de vacinas e agendamento.",
+        "summary": "Aplicação Django para unidades de saúde com busca de vacinas, filtros, geolocalização e agendamento online.",
         "details": [
-          "Busca otimizada para contextos de baixa letrabilidade.",
-          "Admin e importação CSV para agendas."
+          "Busca e filtros por categorias com experiência otimizada para dispositivos móveis.",
+          "Geolocalização de unidades próximas e fluxo de agendamento digital."
         ]
       },
-      "websites": {
-        "summary": "Coleção de sites responsivos para múltiplos clientes com forte SEO e performance.",
+      "iss-tracker": {
+        "summary": "Aplicativo iOS que acompanha a Estação Espacial Internacional em tempo real no mapa.",
         "details": [
-          "Biblioteca de componentes reutilizáveis e theming.",
-          "Analytics + melhores práticas de SEO on‑page."
+          "CoreLocation e MapKit para localização e visualização no mapa.",
+          "Aplicação de delegates e programação orientada a protocolos no ecossistema Apple."
+        ]
+      },
+      "hybris": {
+        "summary": "Jogo casual de terror para iPhone com atmosfera imersiva e integração com Game Center.",
+        "details": [
+          "Desenvolvimento com UIKit, GameKit e Game Center.",
+          "Projeto criado e entregue durante a Apple Developer Academy."
+        ]
+      },
+      "stretch-quest": {
+        "summary": "Aplicativo de postura e flexibilidade com progressão inspirada em RPG, animações e mecânicas de pontuação.",
+        "details": [
+          "Interface híbrida com UIKit e SwiftUI.",
+          "Gamificação aplicada a rotinas de alongamento e saúde."
         ]
       }
     }
   },
   "contact": {
-    "title": "Vamos trabalhar juntos",
-    "desc": "Aberto a vagas iOS remotas (EUA) e trabalhos full‑stack. Disponível para entrevistas, contratos e code reviews. Falo EN/PT e posso me mudar para os EUA. Disponível de forma integral ou meio período.",
-    "chips": [
-      "Aberto a remoto nos EUA",
-      "GMT‑3 / UTC-3",
-      "English / Português",
-      "Developer",
-      "iOS",
-      "Web",
-      "App"
-    ],
+    "title": "Vamos construir algo juntos",
+    "desc": "Aberto a oportunidades em iOS/Mobile, projetos full‑stack e contratos remotos. Posso atuar em desenvolvimento, evolução de produto, integrações, arquitetura, code review e entregas end‑to‑end. Português nativo e inglês avançado para leitura/escrita, com conversação intermediária.",
+    "chips": ["iOS / Mobile", "Flutter", "Full‑Stack", "AWS", "Remoto", "GMT‑3 / UTC-3", "PT / EN"],
     "buttons": {
       "email": "Email",
       "linkedin": "LinkedIn",

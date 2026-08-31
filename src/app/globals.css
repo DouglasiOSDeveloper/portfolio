@@ -607,4 +607,109 @@
   .contact-btn:active {
     transform: translateY(1px);
   }
+
+  /* =========================
+     LIGHT MODE REFINEMENT
+     Dark mode intentionally remains unchanged.
+     ========================= */
+  :root:not(.dark) #about {
+    background: linear-gradient(180deg, #ffffff 0%, #fbfbfd 55%, #f7f7fa 100%);
+  }
+
+  :root:not(.dark) .about-bg .bg-accents {
+    opacity: 0.38;
+  }
+
+  :root:not(.dark) .about-bg .bg-vignette {
+    opacity: 1;
+    background: linear-gradient(
+      180deg,
+      transparent 0%,
+      rgba(248, 248, 252, 0.35) 55%,
+      rgba(245, 245, 249, 0.82) 100%
+    ) !important;
+  }
+
+  :root:not(.dark) .about-contrast {
+    background: none;
+    mix-blend-mode: normal;
+  }
+
+  :root:not(.dark) .project-card,
+  :root:not(.dark) .exp-card {
+    background: rgba(255, 255, 255, 0.94) !important;
+    border-color: rgba(24, 24, 27, 0.1) !important;
+    box-shadow: 0 8px 24px rgba(24, 24, 27, 0.045);
+  }
+
+  :root:not(.dark) .project-card:hover,
+  :root:not(.dark) .project-card:focus-within,
+  :root:not(.dark) .exp-card:hover,
+  :root:not(.dark) .exp-card:focus-within {
+    background: #ffffff !important;
+    border-color: rgba(109, 40, 217, 0.2) !important;
+    box-shadow:
+      0 18px 42px rgba(24, 24, 27, 0.1),
+      0 2px 8px rgba(24, 24, 27, 0.05);
+  }
+
+  :root:not(.dark) .project-card::after {
+    background:
+      radial-gradient(120% 80% at 20% 0%, rgba(168, 85, 247, 0.1), transparent 60%),
+      radial-gradient(120% 80% at 100% 0%, rgba(59, 130, 246, 0.08), transparent 65%);
+  }
+
+  :root:not(.dark) .tech-badge {
+    background: #f7f4ff !important;
+    color: #6d28d9 !important;
+    border-color: #ded2ff !important;
+  }
+
+  :root:not(.dark) .tech-chip {
+    color: #6d28d9 !important;
+    border-color: rgba(109, 40, 217, 0.22) !important;
+    background: #faf8ff !important;
+  }
+
+  :root:not(.dark) .li-dot::before {
+    background: #7c3aed;
+    box-shadow: 0 0 0 2px rgba(124, 58, 237, 0.16);
+  }
+
+  :root:not(.dark) #contact {
+    background: linear-gradient(180deg, #ffffff 0%, #fafafd 52%, #f4f4f8 100%);
+  }
+
+  :root:not(.dark) .contact-accents {
+    opacity: 0.46;
+  }
+
+  :root:not(.dark) .contact-vignette {
+    background: linear-gradient(
+      180deg,
+      transparent 0%,
+      rgba(245, 245, 249, 0.4) 58%,
+      rgba(239, 239, 244, 0.78) 100%
+    ) !important;
+  }
+
+  :root:not(.dark) .contact-btn {
+    background: rgba(255, 255, 255, 0.92);
+    border-color: rgba(24, 24, 27, 0.12);
+    box-shadow: 0 4px 14px rgba(24, 24, 27, 0.04);
+  }
+
+  :root:not(.dark) .contact-btn:hover {
+    background: #ffffff;
+    border-color: rgba(109, 40, 217, 0.22);
+  }
+
+  :root:not(.dark) .site-footer {
+    border-color: rgba(24, 24, 27, 0.1) !important;
+    background: #ffffff;
+  }
+
+  :root:not(.dark) .footer-copy {
+    color: #71717a !important;
+  }
 }

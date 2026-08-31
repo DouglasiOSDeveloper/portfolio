@@ -1,18 +1,18 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { projects as data, type ProjectType, allTags } from "@/data/projects";
+import { projects as data, type ProjectFilter, allTags } from "@/data/projects";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 
-const typeTabs: ProjectType[] = ["All", "iOS", "Web"];
+const typeTabs: ProjectFilter[] = ["All", "iOS", "Mobile", "Web"];
 
 export function Projects() {
   const t = useTranslations("projects");
-  const [type, setType] = useState<"All" | ProjectType>("All");
+  const [type, setType] = useState<ProjectFilter>("All");
   const [activeTag, setActiveTag] = useState<string | "All">("All");
   const [openLinks, setOpenLinks] = useState<Record<string, boolean>>({});
   const [openDetails, setOpenDetails] = useState<Record<string, boolean>>({});
@@ -56,7 +56,13 @@ export function Projects() {
                     : "hover:bg-foreground/5 border-foreground/10 border"
                 )}
               >
-                {tab === "All" ? t("tabs.all") : tab === "iOS" ? t("tabs.ios") : t("tabs.web")}
+                {tab === "All"
+                  ? t("tabs.all")
+                  : tab === "iOS"
+                    ? t("tabs.ios")
+                    : tab === "Mobile"
+                      ? t("tabs.mobile")
+                      : t("tabs.web")}
               </button>
             ))}
           </div>
@@ -130,7 +136,10 @@ export function Projects() {
 
                 <div className="flex flex-wrap gap-2">
                   {p.stack.map((s) => (
-                    <Badge key={s} className="border border-[#d17aff]/30 bg-black text-[#d17aff]">
+                    <Badge
+                      key={s}
+                      className="tech-badge border border-[#d17aff]/30 bg-black text-[#d17aff]"
+                    >
                       {s}
                     </Badge>
                   ))}

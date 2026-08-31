@@ -8,9 +8,9 @@ export function Contact() {
 
   return (
     <section id="contact" className="border-border relative overflow-hidden border-t">
-      <div className="pointer-events-none absolute inset-0 -z-10">
-        <div className="absolute inset-0 bg-[radial-gradient(1000px_500px_at_15%_-10%,oklch(0.67_0.13_320/.14),transparent_60%),radial-gradient(900px_500px_at_85%_-20%,oklch(0.65_0.12_250/.12),transparent_55%)]" />
-        <div className="absolute inset-0 bg-[linear-gradient(to_bottom,transparent,oklch(0.145_0_0/.5))]" />
+      <div className="contact-bg pointer-events-none absolute inset-0 -z-10">
+        <div className="contact-accents absolute inset-0 bg-[radial-gradient(1000px_500px_at_15%_-10%,oklch(0.67_0.13_320/.14),transparent_60%),radial-gradient(900px_500px_at_85%_-20%,oklch(0.65_0.12_250/.12),transparent_55%)]" />
+        <div className="contact-vignette absolute inset-0 bg-[linear-gradient(to_bottom,transparent,oklch(0.145_0_0/.5))]" />
       </div>
 
       <div className="mx-auto max-w-6xl px-4 py-12 md:py-16">

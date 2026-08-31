@@ -13,7 +13,7 @@ type ItemData = {
 
 export function Experience() {
   const t = useTranslations("experience");
-  const ids = ["creativePack", "academy", "thifi"] as const;
+  const ids = ["selectapp", "thifi", "hapvida", "academy"] as const;
 
   const items: ItemData[] = ids.map((id) => ({
     role: t(`items.${id}.role`),
@@ -38,7 +38,8 @@ export function Experience() {
               className={cn(
                 "animate-in fade-in slide-in-from-bottom-2 duration-700",
                 i === 1 && "delay-100",
-                i === 2 && "delay-200"
+                i === 2 && "delay-200",
+                i === 3 && "delay-300"
               )}
             />
           ))}
@@ -95,7 +96,7 @@ function ExperienceItem({
       {!!tech?.length && (
         <div className="mt-4 flex flex-wrap gap-2">
           {tech.map((t) => (
-            <span key={t} className="chip border-pink-400/30 text-[11px] text-pink-400">
+            <span key={t} className="chip tech-chip border-pink-400/30 text-[11px] text-pink-400">
               {t}
             </span>
           ))}

@@ -4,9 +4,9 @@ import { useTranslations } from "next-intl";
 export function Footer() {
   const t = useTranslations("footer");
   return (
-    <footer className="border-t border-white/10">
+    <footer className="site-footer border-t border-white/10">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-4 py-6 md:flex-row">
-        <p className="text-xs text-zinc-400">
+        <p className="footer-copy text-xs text-zinc-400">
           © {new Date().getFullYear()} Douglas Figueirôa. {t("rights")}
         </p>
         <div className="flex items-center gap-5 text-xs">

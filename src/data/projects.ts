@@ -1,67 +1,105 @@
 // src/data/projects.ts
-export type ProjectType = "All" | "iOS" | "Web";
+export type ProjectType = "iOS" | "Mobile" | "Web";
+export type ProjectFilter = "All" | ProjectType;
 export type Project = {
   id: string;
   title: string;
   type: ProjectType;
   summary: string;
   stack: string[];
-  tags?: string[]; // Games, Health, Maps, Business, Education, etc.
-  featured?: string; // e.g. "Swift Student Challenge • 2022"
-  details?: string[]; // bullets shown on “More”
+  tags?: string[];
+  featured?: string;
+  details?: string[];
   links: {
     github?: string;
-    websites?: string[]; // multiple websites for web projects
+    websites?: string[];
   };
 };
 
-export const allTags = ["Games", "Health", "Maps", "Business", "Education"] as const;
+export const allTags = [
+  "Mobility",
+  "Health",
+  "Business",
+  "Games",
+  "Maps",
+  "Education",
+  "Cloud",
+] as const;
 
 export const projects: Project[] = [
   {
-    id: "hybris",
-    title: "Hybris",
-    type: "iOS",
-    summary: "Casual horror‑themed iPhone game focused on atmosphere and GameCenter integration.",
-    stack: ["Swift", "UIKit", "GameKit", "GameCenter"],
-    tags: ["Games"],
-    links: { github: "https://github.com/DouglasiOSDeveloper/hybris" },
+    id: "autopop",
+    title: "AutoPop / SelectApp",
+    type: "Mobile",
+    summary:
+      "Mobility and assistance ecosystem spanning iOS, Flutter, web, backend services and AWS.",
+    stack: ["Swift", "SwiftUI", "Flutter", "Node.js", "AWS"],
+    tags: ["Mobility", "Maps", "Cloud"],
+    links: {},
     details: [
-      "Immersive feedback loop with adaptive difficulty.",
-      "Leaderboard and achievements via GameCenter.",
+      "Critical authentication, mapping and geolocation flows across mobile and web.",
+      "REST/WebSockets, MySQL/RDS, feature flags, canary releases, smoke tests and rollback workflows.",
     ],
   },
   {
-    id: "stretch-quest",
-    title: "Stretch Quest",
+    id: "imob",
+    title: "IMOB Platform",
+    type: "Web",
+    summary: "Full-stack platform with authentication, user management and AWS infrastructure.",
+    stack: ["AWS Cognito", "CloudFormation", "AWS CLI", "CI/CD"],
+    tags: ["Business", "Cloud"],
+    links: {},
+    details: [
+      "Authentication and user management with Amazon Cognito and infrastructure as code.",
+      "Automated validation, smoke tests and backend/deployment troubleshooting.",
+    ],
+  },
+  {
+    id: "onemedia",
+    title: "OneMedia",
+    type: "Web",
+    summary: "Modular digital platform with dashboards and integrations for OOH media operations.",
+    stack: ["Next.js", "React", "Tailwind", "Firebase"],
+    tags: ["Business"],
+    links: {},
+    details: [
+      "Full-stack product development and operational dashboards.",
+      "Google Maps, Instagram, WhatsApp Business and payment integrations.",
+    ],
+  },
+  {
+    id: "genika",
+    title: "Genika",
     type: "iOS",
-    summary: "Posture and flexibility app with RPG‑like progression and animations.",
-    stack: ["SwiftUI", "UIKit"],
+    summary:
+      "iOS/watchOS app using SwiftUI and HealthKit to visualize routine and health indicators.",
+    stack: ["SwiftUI", "HealthKit", "Core Data", "CloudKit"],
     tags: ["Health"],
-    links: { github: "https://github.com/DouglasiOSDeveloper/stretch-quest" },
+    links: { github: "https://github.com/DouglasiOSDeveloper/genika" },
     details: [
-      "Gamified routine with streaks and unlockable levels.",
-      "Custom animation system and haptics.",
+      "HealthKit data ingestion and local persistence.",
+      "CloudKit synchronization and an Apple Watch companion experience.",
     ],
   },
   {
-    id: "iss-tracker",
-    title: "ISS Tracker",
+    id: "dizcarta",
+    title: "Dizcarta",
     type: "iOS",
-    summary: "Track the ISS in real time on a map using Apple frameworks and POP.",
-    stack: ["Swift", "CoreLocation", "MapKit"],
-    tags: ["Maps", "Education"],
-    links: { github: "https://github.com/DouglasiOSDeveloper/iss-tracker" },
+    summary: "Cooperative card game built with SwiftUI/Core Data from education-focused research.",
+    stack: ["SwiftUI", "Core Data", "Xcode Cloud", "DocC"],
+    tags: ["Games", "Education"],
+    links: { github: "https://github.com/DouglasiOSDeveloper/dizcarta" },
     details: [
-      "Live position polling and map annotations.",
-      "Location permissions and background updates.",
+      "Offline-first persistence with Core Data.",
+      "Xcode Cloud pipeline and DocC documentation.",
     ],
   },
   {
     id: "wwdc22-ssc",
-    title: "WWDC22 SSC",
+    title: "Swift Student Challenge 2022",
     type: "iOS",
-    summary: "Interactive Swift Playgrounds experience submitted to the Swift Student Challenge.",
+    summary:
+      "Interactive Swift Playgrounds experience developed for the 2022 Swift Student Challenge.",
     stack: ["Swift", "Playgrounds", "UIKit"],
     tags: ["Education"],
     featured: "Swift Student Challenge • 2022",
@@ -70,75 +108,72 @@ export const projects: Project[] = [
       websites: ["https://www.wwdcscholars.com/s/1FECEDDF-94B5-47FB-8D0D-6585A95470A0/2022"],
     },
     details: [
-      "Education‑oriented content with interaction patterns.",
-      "Focus on accessibility and clear visual language.",
+      "Chapter-based learning content with interactive challenges.",
+      "Developed with Xcode Playgrounds within the Apple Developer Academy.",
     ],
-  },
-  {
-    id: "genika",
-    title: "Genika",
-    type: "iOS",
-    summary: "Apple Watch + HealthKit companion to visualize routine and health balance.",
-    stack: ["SwiftUI", "WatchKit", "HealthKit", "CloudKit"],
-    tags: ["Health"],
-    links: { github: "https://github.com/DouglasiOSDeveloper/genika" },
-    details: [
-      "HealthKit data ingestion and privacy‑aware storage.",
-      "CloudKit sync and minimal Watch interactions.",
-    ],
-  },
-  {
-    id: "dizcarta",
-    title: "Dizcarta",
-    type: "iOS",
-    summary: "Co‑op card‑based game encouraging socialization among young people.",
-    stack: ["SwiftUI", "CoreData", "DocC"],
-    tags: ["Games", "Education"],
-    links: { github: "https://github.com/DouglasiOSDeveloper/dizcarta" },
-    details: ["Offline‑first with CoreData.", "Game balancing and UX for group sessions."],
   },
   {
     id: "beauty-platform",
-    title: "White‑Label Beauty Platform",
+    title: "White-Label Beauty Platform",
     type: "Web",
     summary:
-      "Next.js platform for salons/barbershops with catalog, IG gallery, WhatsApp bookings and Mercado Pago checkout.",
-    stack: ["Next.js", "Tailwind", "Firebase", "Mercado Pago"],
+      "Web platform for salons and barbershops with catalog, scheduling, e-commerce and admin dashboard.",
+    stack: ["Next.js", "Firebase", "Tailwind", "Mercado Pago"],
     tags: ["Business"],
     links: { github: "https://github.com/AgenciaThifi/wl_salao_barbearia" },
     details: [
-      "Serverless functions for booking + notifications.",
-      "SEO‑ready pages and IG media ingestion.",
+      "Responsive booking and service-management flows.",
+      "Payment and communication integrations with Mercado Pago and WhatsApp.",
     ],
   },
   {
     id: "falaubs",
     title: "FalaUBS",
     type: "Web",
-    summary: "Django web app for public health units with smart vaccine search and booking.",
-    stack: ["Django", "HTML", "JS"],
-    tags: ["Health", "Business"],
+    summary:
+      "Django app for public health units with vaccine search, geolocation and online scheduling.",
+    stack: ["Django", "Python", "HTML", "JavaScript"],
+    tags: ["Health", "Maps"],
     links: { github: "https://github.com/DouglasiOSDeveloper/falaubs" },
     details: [
-      "Search flow optimized for low‑literacy contexts.",
-      "Admin panel and CSV import for schedules.",
+      "Category filters and mobile-optimized vaccine search.",
+      "Nearby-unit geolocation and digital appointment scheduling.",
     ],
   },
   {
-    id: "websites",
-    title: "Corporate & Institutional Websites",
-    type: "Web",
-    summary:
-      "A collection of responsive websites delivered for multiple clients with strong SEO and performance.",
-    stack: ["Next.js", "React", "TypeScript", "Tailwind"],
-    tags: ["Business"],
-    links: {
-      websites: [
-        "https://odontotubarao.com.br/",
-        "https://violet-leopard-139615.hostingersite.com/",
-        "https://darkslateblue-goat-822240.hostingersite.com/",
-      ],
-    },
-    details: ["Reusable component library and theming.", "Analytics + on‑page SEO best practices."],
+    id: "iss-tracker",
+    title: "ISS Tracker",
+    type: "iOS",
+    summary: "Real-time ISS tracking on a map using Apple location frameworks.",
+    stack: ["Swift", "CoreLocation", "MapKit"],
+    tags: ["Maps", "Education"],
+    links: { github: "https://github.com/DouglasiOSDeveloper/iss-tracker" },
+    details: [
+      "Real-time map positioning with CoreLocation and MapKit.",
+      "Protocol-oriented design and delegates.",
+    ],
+  },
+  {
+    id: "hybris",
+    title: "Hybris",
+    type: "iOS",
+    summary: "Casual horror-themed iPhone game with Game Center integration.",
+    stack: ["Swift", "UIKit", "GameKit", "Game Center"],
+    tags: ["Games"],
+    links: { github: "https://github.com/DouglasiOSDeveloper/hybris" },
+    details: ["Built with UIKit and GameKit.", "Competitive scoring and Game Center integration."],
+  },
+  {
+    id: "stretch-quest",
+    title: "Stretch Quest",
+    type: "iOS",
+    summary: "Posture and flexibility app with RPG-inspired progression and animations.",
+    stack: ["SwiftUI", "UIKit"],
+    tags: ["Health"],
+    links: { github: "https://github.com/DouglasiOSDeveloper/stretch-quest" },
+    details: [
+      "Hybrid UIKit/SwiftUI interface.",
+      "Gamified stretching routines with progression mechanics.",
+    ],
   },
 ];
