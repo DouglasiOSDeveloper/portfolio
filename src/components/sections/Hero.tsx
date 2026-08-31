@@ -73,12 +73,12 @@ export function Hero() {
               <Link href="#projects">{t("cta.projects")}</Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="btn-fx">
-              <Link href="/resume/DouglasFigueiroa_Developer.pdf" target="_blank">
+              <Link href="/resume/Douglas_Figueiroa_CV_Refined_ATS_EN.pdf" target="_blank">
                 {t("cta.resume_en")}
               </Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="btn-fx">
-              <Link href="/resume/DouglasFigueiroa_Desenvolvedor.pdf" target="_blank">
+              <Link href="/resume/Douglas_Figueiroa_CV_Refinado_ATS.pdf" target="_blank">
                 {t("cta.resume_pt")}
               </Link>
             </Button>
